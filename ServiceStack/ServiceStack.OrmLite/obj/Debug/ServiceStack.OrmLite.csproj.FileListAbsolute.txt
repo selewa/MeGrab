@@ -1,0 +1,15 @@
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.OrmLite.dll
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.OrmLite.pdb
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.Common.dll
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.Interfaces.dll
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.Text.dll
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\obj\Debug\ServiceStack.OrmLite.dll
+E:\WorkSpace\MeGrab_20150414\MeGrab\ServiceStack\ServiceStack.OrmLite\obj\Debug\ServiceStack.OrmLite.pdb
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.OrmLite.dll
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.OrmLite.pdb
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.Common.dll
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.Interfaces.dll
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\bin\Debug\ServiceStack.Text.dll
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\obj\Debug\ServiceStack.OrmLite.csprojResolveAssemblyReference.cache
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\obj\Debug\ServiceStack.OrmLite.dll
+E:\WorkSpace\MeGrab\ServiceStack\ServiceStack.OrmLite\obj\Debug\ServiceStack.OrmLite.pdb

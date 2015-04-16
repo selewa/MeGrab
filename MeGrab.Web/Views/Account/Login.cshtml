@@ -1,0 +1,25 @@
+﻿@model MeGrab.Web.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<div>
+    <form id="loginForm" action="~/Account/Login?returnUrl=@HttpContext.Current.Request.Url.AbsoluteUri" method="post">
+        <fieldset>
+            <div>
+                <label>用户名: </label>
+                <input name="UserName" type="text" placeholder="用户名/邮箱/手机号" style="width:50px" />
+            </div>
+            <div>
+                <label>密码: </label>
+                <input name="Password" type="password" placeholder="密码" style="width:50px" />
+            </div>
+            <div>
+                <input type="submit" value="登陆" style="width:50px;" />
+            </div>
+        </fieldset>
+    </form>
+</div>

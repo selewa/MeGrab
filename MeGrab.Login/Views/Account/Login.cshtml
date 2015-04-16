@@ -1,0 +1,44 @@
+﻿@model MeGrab.Login.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
+
+@using (Html.BeginForm()) {
+    <div>
+        <fieldset>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.UserNameOrEmailOrCellPhoneNo)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(m => m.UserNameOrEmailOrCellPhoneNo, new { placeholder="手机号/用户名/邮箱" })
+                @Html.ValidationMessageFor(m => m.UserNameOrEmailOrCellPhoneNo)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(m => m.Password)
+            </div>
+            <div class="editor-field">
+                @Html.PasswordFor(m => m.Password, new { placeholder = "密码" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+
+            <div class="editor-label">
+                @Html.CheckBoxFor(m => m.RememberMe)
+                @Html.LabelFor(m => m.RememberMe)
+            </div>
+
+            <p>
+                <input type="submit" value="登录" />				
+            </p>
+			<p>
+                还没有账号？@Html.ActionLink("免费注册", "CreateUser")
+			</p>
+        </fieldset>
+    </div>
+}

@@ -1,0 +1,71 @@
+﻿@using Eagle.Web.Core.Mvc;
+
+@model MeGrab.Login.Models.LoginUserInfoModel
+
+<div>
+
+    <ul style="list-style-type:none;display:table;padding:5px 5px">
+        @if (this.Model != null)
+        {
+            <li style="float: left;line-height:20px;">
+                <!-- 自定义的 RedirectLink 返回 Html Mvc String 跨域 URL link refer to Eagle.Web.Core.Mvc.HtmlHelperExtensions -->
+                @Html.RedirectLink("抢红包去", "http://www.wq.com", new Dictionary<string, string>() { { "token", Model.Token }, { "username", Model.User.Name }, { "remark", "Success" } })
+            </li>
+        }
+        <li style="margin-left:10px; float: left; line-height: 20px"><a href="#" target="_blank">账户设置</a></li>
+        <li style="margin-left:10px; float: left; line-height: 20px">
+            @Html.ActionLink("重新登录", "Login", "Account")
+        </li>
+        <li style="margin-left:10px; float: left; line-height: 20px">
+            @Html.ActionLink("重新注册新用户", "CreateUser", "Account")
+        </li>
+    </ul>
+
+</div>
+
+<div>
+
+    <div>
+        <p>以下是用户信息和相关设置</p>
+    </div>
+
+    <div>
+        <p>
+            <span>用户名: 
+            @if (Model != null && Model.User != null)
+            {
+                @Model.User.Name
+            }
+            </span>
+        </p>
+        <p>
+            <span>邮箱: 
+            @if (Model != null && Model.User != null)
+            {
+                @Model.User.Email
+            }
+            </span>
+        </p>
+        <p>
+            <span>手机: 
+            @if (Model != null && Model.User != null)
+            {
+                @Model.User.CellPhoneNo
+            }
+            </span>
+        </p>
+    </div>
+
+    <div>
+        <p>
+            参与过的抢红包活动
+        </p>
+    </div>
+
+    <div>
+        <p>
+            参与过的抢电影票活动
+        </p>
+    </div>
+
+</div>

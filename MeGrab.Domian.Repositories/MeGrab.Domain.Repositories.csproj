@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14F12408-B1A7-43E4-8F7C-E501B2680736}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeGrab.Domain.Repositories</RootNamespace>
+    <AssemblyName>MeGrab.Domain.Repositories</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack.Common, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ServiceStack.4.0.0.0\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lite\MeGrabUserRepository.cs" />
+    <Compile Include="Lite\TopicRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eagle.Common\Eagle.Common.csproj">
+      <Project>{0cb524d0-68cb-47b8-8b9f-9915cbe19f31}</Project>
+      <Name>Eagle.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eagle.Core\Eagle.Core.csproj">
+      <Project>{ddcadbee-4c66-43bd-a1c8-76265134b9f2}</Project>
+      <Name>Eagle.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eagle.Domain\Eagle.Domain.csproj">
+      <Project>{3b98f11d-5383-4856-b82a-9eb6ae800603}</Project>
+      <Name>Eagle.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eagle.Repositories.Lite\Eagle.Repositories.Lite.csproj">
+      <Project>{ba9b8ba4-b971-429b-8f42-7d5633ebe625}</Project>
+      <Name>Eagle.Repositories.Lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eagle.Web.Security\Eagle.Web.Security.csproj">
+      <Project>{80465bb6-fd12-498b-b367-80a89e19a081}</Project>
+      <Name>Eagle.Web.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MeGrab.Domain\MeGrab.Domain.csproj">
+      <Project>{509f2ab9-73a8-4603-84a4-fac0cf1006f4}</Project>
+      <Name>MeGrab.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStack\ServiceStack.OrmLite.MySql\ServiceStack.OrmLite.MySqlV45.csproj">
+      <Project>{1bce2206-a9f9-4381-b4f7-f617998447a1}</Project>
+      <Name>ServiceStack.OrmLite.MySqlV45</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStack\ServiceStack.OrmLite\ServiceStack.OrmLite.csproj">
+      <Project>{96179ac6-f6f1-40c3-9fdd-4f6582f54c5c}</Project>
+      <Name>ServiceStack.OrmLite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MongoDB\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

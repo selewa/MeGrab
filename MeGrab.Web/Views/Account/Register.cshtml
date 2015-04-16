@@ -1,0 +1,29 @@
+﻿@model MeGrab.DataObjects.UserDataObject
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+<form id="registerForm" action="~/Login/Register" method="post">
+
+    <fieldset>
+        <div>
+            <label>用户名</label>
+            <input type="text" name="Name" style="width:50px"/>
+        </div>
+        <div>
+            <label>邮箱</label>
+            <input type="text" name="Email" style="width:100px"/>
+        </div>
+        <div>
+            <label>密码</label>
+            <input type="password" name="Password" style="width:50px" />
+        </div>
+        <div>
+            <input type="submit" value="注册" />
+        </div>
+    </fieldset>
+
+</form>
