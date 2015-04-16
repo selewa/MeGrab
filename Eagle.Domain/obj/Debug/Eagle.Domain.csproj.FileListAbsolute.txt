@@ -26,3 +26,17 @@ E:\WorkSpace\MeGrab\Eagle.Domain\bin\Debug\Eagle.Core.pdb
 E:\WorkSpace\MeGrab\Eagle.Domain\obj\Debug\Eagle.Domain.csprojResolveAssemblyReference.cache
 E:\WorkSpace\MeGrab\Eagle.Domain\obj\Debug\Eagle.Domain.dll
 E:\WorkSpace\MeGrab\Eagle.Domain\obj\Debug\Eagle.Domain.pdb
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Eagle.Domain.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Eagle.Domain.pdb
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Eagle.Common.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Eagle.Core.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Microsoft.Practices.Unity.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\EmitMapper.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Newtonsoft.Json.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\log4net.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Eagle.Common.pdb
+F:\git\MeGrab\MeGrab\Eagle.Domain\bin\Debug\Eagle.Core.pdb
+F:\git\MeGrab\MeGrab\Eagle.Domain\obj\Debug\Eagle.Domain.csprojResolveAssemblyReference.cache
+F:\git\MeGrab\MeGrab\Eagle.Domain\obj\Debug\Eagle.Domain.dll
+F:\git\MeGrab\MeGrab\Eagle.Domain\obj\Debug\Eagle.Domain.pdb

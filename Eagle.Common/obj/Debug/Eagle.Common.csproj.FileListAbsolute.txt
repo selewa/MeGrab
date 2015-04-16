@@ -26,3 +26,17 @@ E:\WorkSpace\MeGrab\Eagle.Common\bin\Debug\Eagle.Core.pdb
 E:\WorkSpace\MeGrab\Eagle.Common\obj\Debug\Eagle.Common.csprojResolveAssemblyReference.cache
 E:\WorkSpace\MeGrab\Eagle.Common\obj\Debug\Eagle.Common.dll
 E:\WorkSpace\MeGrab\Eagle.Common\obj\Debug\Eagle.Common.pdb
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Eagle.Common.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Eagle.Common.pdb
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Castle.Core.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Eagle.Core.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\EmitMapper.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\log4net.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Microsoft.Practices.Unity.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Newtonsoft.Json.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\bin\Debug\Eagle.Core.pdb
+F:\git\MeGrab\MeGrab\Eagle.Common\obj\Debug\Eagle.Common.csprojResolveAssemblyReference.cache
+F:\git\MeGrab\MeGrab\Eagle.Common\obj\Debug\Eagle.Common.dll
+F:\git\MeGrab\MeGrab\Eagle.Common\obj\Debug\Eagle.Common.pdb

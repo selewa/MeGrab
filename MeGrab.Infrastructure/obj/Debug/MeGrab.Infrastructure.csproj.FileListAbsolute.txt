@@ -18,3 +18,13 @@ E:\WorkSpace\MeGrab\MeGrab.Infrastructure\bin\Debug\Eagle.Core.pdb
 E:\WorkSpace\MeGrab\MeGrab.Infrastructure\obj\Debug\MeGrab.Infrastructure.csprojResolveAssemblyReference.cache
 E:\WorkSpace\MeGrab\MeGrab.Infrastructure\obj\Debug\MeGrab.Infrastructure.dll
 E:\WorkSpace\MeGrab\MeGrab.Infrastructure\obj\Debug\MeGrab.Infrastructure.pdb
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\MeGrab.Infrastructure.dll
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\MeGrab.Infrastructure.pdb
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\Eagle.Core.dll
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\log4net.dll
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\bin\Debug\Eagle.Core.pdb
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\obj\Debug\MeGrab.Infrastructure.csprojResolveAssemblyReference.cache
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\obj\Debug\MeGrab.Infrastructure.dll
+F:\git\MeGrab\MeGrab\MeGrab.Infrastructure\obj\Debug\MeGrab.Infrastructure.pdb

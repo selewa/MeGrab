@@ -7,43 +7,38 @@
 
 @using (Html.BeginForm()) {
     @Html.ValidationSummary(true, "User creation was not successful. Please correct the errors and try again.")
-    <div>
-        <fieldset>
+    <div class="fieldset">
             <div class="editor-label">
                 @Html.LabelFor(m => m.UserName)
             </div>
-            <div class="editor-field">
-                @Html.TextBoxFor(m => m.UserName)
+            <div>
+                @Html.TextBoxFor(m => m.UserName, new {@class="editor-field"})
                 @Html.ValidationMessageFor(m => m.UserName)
             </div>
 
             <div class="editor-label">
                 @Html.LabelFor(m => m.Email)
             </div>
-            <div class="editor-field">
-                @Html.TextBoxFor(m => m.Email)
+            <div>
+                @Html.TextBoxFor(m => m.Email, new {@class="editor-field"})
                 @Html.ValidationMessageFor(m => m.Email)
             </div>
 
             <div class="editor-label">
                 @Html.LabelFor(m => m.Password)
             </div>
-            <div class="editor-field">
-                @Html.PasswordFor(m => m.Password)
+            <div>
+                @Html.PasswordFor(m => m.Password, new {@class="editor-field"})
                 @Html.ValidationMessageFor(m => m.Password)
             </div>
 
             <div class="editor-label">
                 @Html.LabelFor(m => m.ConfirmPassword)
             </div>
-            <div class="editor-field">
-                @Html.PasswordFor(m => m.ConfirmPassword)
+            <div>
+                @Html.PasswordFor(m => m.ConfirmPassword, new {@class="editor-field"})
                 @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                 <input type="submit" value="同意以下协议并注册" class="login-button" />
             </div>
-
-            <p>
-                <input type="submit" value="同意以下协议并注册" />
-            </p>
-        </fieldset>
     </div>
 }

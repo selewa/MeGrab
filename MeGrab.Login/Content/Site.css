@@ -1,4 +1,4 @@
-﻿body {
+﻿/*body {
     background-color: #015A84;
     font-size: .85em;
     font-family: "Segoe UI";
@@ -283,4 +283,99 @@ div#logindisplay {
 
 .tri-state {
     width: 6em;
+}*/
+
+html body
+{
+    padding:0;
+    margin:0;
+    /*background:#2C3437;*/
+    background:#eee;
+    color:#404040;
 }
+body
+{
+    height:100%;
+}
+.page
+{
+   margin-left:100px;
+   margin-right:100px;
+   box-sizing:border-box;
+  
+}
+div
+{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+#main
+{
+    height:100%;
+    min-width:980px;
+    min-height:880px;
+    position:relative;
+}
+h2
+{
+    font-size:30px;
+    font-weight:bold;
+    color:#000;
+}
+.login-form
+{
+   position:absolute;
+   top:80px;
+   left:300px;
+   width:650px;
+   height:420px;
+}
+.fieldset
+{
+    border:1px solid #fff;
+    border-radius:8px;
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));
+    min-height:300px;
+    padding:20px;
+}
+.login
+{
+    float:left;
+    width:50%;
+}
+.editor-label
+{
+    font:18px/1.5em 'Microsoft YaHei';
+    margin-top:8px;
+}
+.editor-field
+{
+    height:30px;
+    width:300px;
+    border:1px solid #cccccc;
+    margin-top:5px;
+}
+.editor-field[placeholder]
+{
+    font-size:16px;
+}
+.adReg
+{
+    float:right;
+    width:30%;
+}
+.login-button
+{
+   background-image:linear-gradient(to bottom,#08c,#04c);
+   background-color:#006dcc;
+   color:#fff;
+   font-size:14px;
+   cursor:pointer;
+   min-width:62px;
+   height:30px;
+   border-radius:4px;
+   float:right;
+   border:10px;
+}
+
